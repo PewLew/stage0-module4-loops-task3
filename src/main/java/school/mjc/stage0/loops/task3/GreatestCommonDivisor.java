@@ -8,5 +8,6 @@ public class GreatestCommonDivisor {
                 gcd = i;
             }
         }
+        System.out.println(gcd);
     }
 }
