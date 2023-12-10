@@ -4,8 +4,7 @@ public class NinesSum {
     public void calculateSum(int lengthOfLastNumber) {
         int n = 9;
         int sum = 0;
-        String s = Integer.toString(lengthOfLastNumber);
-        for(int i = 0; i<s.length(); i++){
+        for(int i = 0; i<lengthOfLastNumber; i++){
             sum += n;
             n = n * 10 + 9;
         }
